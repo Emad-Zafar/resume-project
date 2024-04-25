@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 2%;
+  margin: 2%;
+  padding-bottom: 0;
+}
+p {
+  line-height: 25px;
+}
+.name {
+  margin-top: 40px;
+}
+.name h2 {
+  margin: 20px 0 10px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 50%;
+  padding: 1%;
+  margin: 2%;
+}
+.summary p {
+  margin: 20px 0 60px 0;
+}
+
+.feature h3 {
+  margin: 20px 0 10px 0;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(38, 38, 38);
+  border: 3px solid rgb(204, 204, 204);
+  border-radius: 50%;
+}
+
+.jobs {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-top: 50px;
+}
+
+.skillsLists {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.radio-heading {
+  margin: -18px 0 0 30px;
+}
+
+.skillitems {
+  margin: -3px 0 0 10px;
+  width: 100%;
+}
+
+.radio-heading h4 {
+  margin: 5px 0;
+  color: gray;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  margin-top: 30px;
+}
+
+.spanTags {
+  width: 80%;
+  margin-top: -15px;
+}
+
+.spanTags span {
+  background-color: rgb(199, 199, 199);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 15px;
+}
+
+ul {
+  padding: 20px;
+}
+li {
+  line-height: 22px;
+}
+li::marker {
+  font-size: 1.5rem;
+}
+
+.duration {
+  margin: 15px 0 50px 0;
+}
+.security h3 {
+  margin: 75px 0 10px 0;
+}
+a {
+  font-size: 12px;
+  color: black;
+  margin-left: 20px;
+}
